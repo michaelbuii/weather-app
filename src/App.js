@@ -102,7 +102,7 @@ function App() {
       setTemperature(Math.floor(data.current_weather.temperature))
     }
     fetchWeather()
-  }, [handleLocation])
+  }, [handleLocation, url])
 
   return (
     <div className="App">
